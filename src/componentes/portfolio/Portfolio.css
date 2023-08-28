@@ -1,0 +1,17 @@
+.img{
+    padding-left:80px ;
+    margin-top: 0px;
+}
+.my-text{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.my-title{
+    margin-top: 100px;
+    color: rgb(118, 1, 51);
+}
+main{
+    width: 100%;
+    background-size: cover;
+    height: 550px;
+}
