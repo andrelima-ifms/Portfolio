@@ -11,9 +11,9 @@ function Portfolio(){
         <p className='my-text'>Aqui vocês poderam encontrar diversas atividades</p>
         <p className='my-text'>que faço no meu dia a dia. Espero que gostem!</p>
         <h1 className='my-title'>O que gosto de fazer?</h1>
-        <p>-Ensinar babys a dançar Ballet</p>
-        <p>-Jogar Vôlei</p>
-        <p>-Sair com a família</p>
+        <p  className='my-text'>-Ensinar babys a dançar Ballet</p>
+        <p  className='my-text'>-Jogar Vôlei</p>
+        <p  className='my-text'>-Sair com a família</p>
         
       </main>
     )

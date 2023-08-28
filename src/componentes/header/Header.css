@@ -8,7 +8,7 @@ header{
     align-items: center;
     width: 100vw;
     position: fixed;
-    height: 60px;
+    height: 80px;
 }
 header ul{
     display: flex;
@@ -28,4 +28,7 @@ header h1{
 }
 .mb{
 display: flex;
+}
+header nav{
+    margin-right: 50px;
 }
