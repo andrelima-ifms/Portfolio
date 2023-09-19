@@ -1,5 +1,5 @@
 import './Portfolio.css'
-import Background from '../../assets/img/fundo.png'
+import Background from '../../../public/fundo.png'
 
 function Portfolio(){
     return(
