@@ -18,6 +18,7 @@ main{
     width: 100%;
     background-size: cover;
     height: 850px;
+    background-image: url("/pink.png");
 }
 
 

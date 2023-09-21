@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Projetos from './../projetos/Projetos'
 import './Portfolio.css'
-import Background from '../../assets/img/pink.png'
 type ProjetosType = {
     id:number,
     titulo:string,
@@ -47,7 +46,7 @@ function Portfolio() {
      {
     (
       <>
-      <main style={{backgroundImage: `url(${Background})`}}>
+      <main>
        
         <p>...</p>
         <h1 className='my-title'>Olá, eu sou a Stefanny</h1>
