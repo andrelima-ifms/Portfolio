@@ -1,36 +1,29 @@
 import './Header.css'
+import LinkNav from './../linknav/LinkNav'
 function Header(){
     return(
         <header>
-            <div>
-                <h1>Stefanny Lorena</h1>
+            <div className='my-title'>
+                <h1>SL8</h1>
             </div>
             <nav>
-                <div className='mb'>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <LinkNav url="/" texto='Home'/>
                     </li>
-                </ul>
-                <ul>
                     <li>
-                        <a href="#">Blog</a>
+                        <LinkNav url="/notícias" texto='Notícias'/>
                     </li>
-                </ul>
-                <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <LinkNav url="/sobre" texto='Sobre'/>
                     </li>
-                </ul>
-                <ul>
                     <li>
-                        <a href="#">Contato</a>
+                        <LinkNav url="/contato" texto='Contato'/>
                     </li>
                 </ul>
-                </div>
             </nav>
         </header>
     )
 }
 
-export default Header 
+export default Header
