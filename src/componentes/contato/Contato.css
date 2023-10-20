@@ -1,41 +1,81 @@
-.Contato{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contato {
+    text-align: center;
+    margin: 80px auto;
+    max-width: 700px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #ffffff;
+  }
+  
+
+  h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+
+  form {
+    text-align: left;
+  }
+  
+
+  .butão {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
     width: 100%;
-    min-height: 714px;
-    background-color: rgb(209, 209, 209);
-}
-.CTT{
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 300px;
-    justify-content: space-between;
-    align-items: center;
-}
-.CTT input{
-    border: 1px solid rgb(156, 156, 156);
-    margin: 0;
-    text-align: start;
-    padding-left: 30px;
-    width: 100%;
-}
-.CTT button{
-    height: 30px;
-    width: 200px;
-    background-color: black;
-    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+ 
+  button {
+    background-color: #6f00ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    border: 0;
-    transition: 0.2s;
-}
-.CTT button:hover{
-    background-color: rgb(116, 116, 116);
-    transform: scale(1.1);
-}
-.Cdigitado{
-    display: flex;
-    align-items: center;
-    height: 50px;
-}
+    margin-top: 20px;
+    transition: background-color 0.3s ease; 
+  
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

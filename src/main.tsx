@@ -1,9 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './main.css'
+import "./Main.css"
 import Header from './componentes/header/Header'
-import Portfolio from './componentes/portfolio/Portfolio'
+import Main from './componentes/main/Main'
 import Footer from './componentes/footer/Footer'
+import Contato from './componentes/contato/Contato'
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+   
+  </React.StrictMode>,
+)
 
 import {
   createBrowserRouter,
@@ -13,24 +20,30 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <>
-     <Header/>
-     <Portfolio/> 
-     <Footer/>
-     </>,
+    element:<>
+              <Header/>
+              <Main/>
+              <Footer/>
+  </>,
   },
   {
-    path: "/notícias",
-    element: <div>Página de notícias</div>,
+    path: "/noticias",
+    element: <div>Página de Notícias!</div>,
   },
   {
     path: "/sobre",
-    element: <div>Página de sobre</div>,
+    element: <div>Página Sobre!</div>,
   },
   {
-    
     path: "/contato",
-    element:  <div>Página de contato</div>,
+    element: <div>
+       <Header/>
+       <Contato/>
+       <Footer/>
+
+      
+    </div>,
+   
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(

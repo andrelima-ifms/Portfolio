@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Projetos from './../projetos/Projetos'
-import './Portfolio.css'
+import Projetos from '../projetos/Projetos'
+import './Main.css'
 type ProjetosType = {
     id:number,
     titulo:string,
