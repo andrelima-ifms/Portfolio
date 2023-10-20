@@ -13,7 +13,7 @@ function Footer(){
                     <li ><a href="#">Blog</a></li>
                 </ul>
                 <ul>
-                    <li ><a href="#">Telefone: +55 67998931358</a></li>
+                    <li ><a href="#">Fone: +55 67998931358</a></li>
                     <li ><a href="#">Email: stefanny.rodrigues@estudante.ifms.edu.br</a></li>
                 </ul>
                 <ul>
